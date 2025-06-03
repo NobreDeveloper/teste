@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kadwa", serif;
+}
+
+/* Define a base de cada post */
+.card-post-saude, .card-post-educacao, .card-post-cultura, .card-post-esporte, .card-post-cultura, .card-post-transito {
+    height: auto;
+    width: 65vh;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Define a cor do fundo do post-cultura */
+.card-post-cultura {
+    background-color: #85cf72;
+}
+
+/* Define a cor do fundo do post-transito */
+.card-post-transito{
+    background-color: #424242;
+}
+
+/* Define a cor do fundo do post-saude */
+.card-post-saude {
+    background-color: #0FC2C0;
+}
+
+/* Define a cor do fundo do post-educacao */
+.card-post-educacao {
+    background-color: #7349eb;
+}
+
+/* Define a cor do fundo do post-esporte */
+.card-post-esporte {
+    background-color: #A62B1F;
+}
+
+/* Define o padrão das imagens dos post */
+#img-card{
+    margin: auto;
+    display: flex;
+    height: 350px;
+    width: 590px;
+    border-radius: 10px;
+}
+
+/* Define a cor do texto dos subtítulos */
+.card-title-h2, .card-text {
+    color: white;
+}
+
+/* Define a alinhação do texto */
+.card-text{
+    text-align: justify;
+    margin-top: 0.5rem;
+}
+
+/* Container Card-create */
+.card{
+    max-width: 65vh; 
+    margin: 1.25rem auto; 
+    background-color: #dfdfdf;
+    border-color: #dfdfdf;
+}
+
+/* Define a cor do botão de criar-post */
+#btn-create{
+    border-color: #3F45B6;
+    background-color: #3F45B6;
+    color: white;
+}
+
+/* responsividade */
+
+@media (max-width: 1600px) {
+    .card-post-saude, .card-post-educacao, .card-post-cultura, .card-post-esporte, .card-post-transito {
+        width: 550px;
+    }
+}

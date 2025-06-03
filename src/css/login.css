@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kadwa", serif;
+    font-weight: bold;
+}
+
+.container-fluid img {
+    display: flex;
+}
+
+#img-login {
+    height: 100vh;
+}
+
+input , .btn{
+    width: 350px !important;
+}
+
+.form-login {
+    background-color: #D9D9D9 ;
+    color: #3F45B6;
+}
+
+#logo-login {
+    text-align: center;
+}
+
+h2{
+    color: #3F45B6;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.btn{
+    background-color: #3F45B6;
+    border-color: #3F45B6;
+    margin-top: 1.5rem;
+}
+
+.btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.form-login, .btn, .form-control {
+    border-radius: 30px;
+}
+
+.form-control{
+    height: 5vh;
+    padding-left: 1.5rem;
+}
+
+.nav-link{
+    text-align: right;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+p{
+    margin-top: 2.5rem;
+    color: #3F45B6;
+}
+
+#img-btn{
+    max-width: 80px; 
+    height: auto;
+}
+
+/* Responsividade */
+
+@media (min-width: 1800px) {
+    #img-login {
+      max-width:  105%;
+      margin-right: 13rem;
+    }
+  }
+
+@media (max-width: 1600px) {
+    h2 {
+      margin-top: 0rem;
+    }
+    #img-login {
+      max-width:  110%;
+      margin-right: 3.1rem;
+    }
+  }

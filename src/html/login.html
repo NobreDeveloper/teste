@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Prefeitura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../../public/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section class="container-fluid d-flex p-0">
+        <div class="row">
+            <div class="col" id="col-img-login">
+                <img src="../../public/img/img-login.png" id="img-login" class="img-fluid ">
+            </div>
+            <div class="col justify-content-center d-flex flex-column align-items-center ms-1" id="col-login">
+                <img src="../../public/img/logo-login.png" id="logo-login" alt="">
+                    <h2>Autenticação</h2>
+                    <div form class="form-login p-4  align-items-center" action="../controller/loginController.php" method="POST">
+                    <div class="mb-4 mt-2">
+                        <label for="email" class="form-label ">Usuário👤</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="senha" class="form-label">Senha🔑</label>
+                        <input type="password" class="form-control" id="senha" name="senha" required>
+                        <a href="#" class="nav-link">Esqueçeu a senha?🔒</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-4">
+                        <a href="home_adm.html">Login</a>
+                    </button>
+                </div>
+                    <p>V 2.1.01</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

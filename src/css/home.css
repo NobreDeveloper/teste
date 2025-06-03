@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kadwa", serif;
+}
+
+/* Altera a cor do cabeçário*/
+.bg-primary, .btn-primary, .container-fluid-secondary {
+    background-color: #3F45B6 !important; 
+}
+
+/* Cabeçário e Rodapé sem Margens internas e externas*/
+.container-fluid, #footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define Cor, Altura, Expessura da borda, Largura da Borda e tamanho da fonte do botão */
+.btn-primary {
+    border-color: white;
+    height: auto;
+    border-radius: 2.5rem;
+    border-width: 0.20rem;
+    font-size: 3.1vh;
+}
+
+/* Define a cor e tamanho dos Icons */
+.bi {
+    color: white;
+    font-size: 25px;
+}
+
+/* Define Transição e remove o sublinado dos links */
+#icon-a, #nav-itens,.btn-primary {
+    display: inline-block;
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* Define Cor, tamanho e peso dos links */
+#nav-itens {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Realiza o efeito de crescer os itens */
+#nav-itens:hover, #icon-a:hover, .btn-primary:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do texto em 10% no hover */ 
+    text-decoration: none; /* Remove o sublinhado no hover */
+}
+
+/* Centraliza os itens no centro da coluna */
+.card-title, .card-subtitle {
+    text-align: center;
+}
+
+/* Margem de baixo do h5 */
+.card-title {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}  
+
+/* Estilização da cor de fundo do Container Principal */
+.bg-light {
+    background-color: #d9d9d9 50% !important;
+}
+
+/* Define a margema direita dos Icons Circle */
+.bi-circle-fill {
+    margin-right: 0.5rem;
+}
+
+/* Responsividade */
+@media (min-width: 992px) {
+
+}

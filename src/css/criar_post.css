@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kadwa", serif;
+    font-weight: bold;
+}
+
+label, h1 {
+    color: #3F45B6;
+    font-weight: bold;
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+.btn {
+    background-color: #3F45B6;
+    border-color: #3F45B6;
+    margin-top: 1.5rem;
+}
+
+select {
+    border-color: #3F45B6;
+    color: #3F45B6;
+    border-radius: 1.5625rem;
+    padding: 0.5rem;
+}
